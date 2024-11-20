@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+network = "mainnet"
+optimizer = true
+optimizer_runs = 20_000
+via_ir = true
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+eth_rpc_url = "https://sepolia.gateway.tenderly.co"
